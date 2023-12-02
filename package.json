@@ -1,0 +1,27 @@
+{
+  "name": "fishfood-ink",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mantine/core": "^7.2.2",
+    "@mantine/hooks": "^7.2.2",
+    "bulma": "^0.9.4",
+    "lucide-preact": "^0.294.0",
+    "preact": "^10.16.0",
+    "preact-router": "^4.1.2"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.5.0",
+    "node-sass": "^9.0.0",
+    "sass": "^1.69.0",
+    "sass-loader": "^13.3.2",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}

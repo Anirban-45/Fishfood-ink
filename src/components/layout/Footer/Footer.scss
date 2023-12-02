@@ -1,0 +1,21 @@
+@import "../../../styles/_variables.scss";
+@import "../../../styles/_mixins.scss";
+
+.footer {
+    background-color: $primary-text-color !important;
+    color: $background-color;
+    padding: 40px 60px !important;
+
+    .footerdata {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        pre{
+            background-color: $primary-text-color !important;
+            color: $background-color;
+            padding: 0px;
+        }
+    }
+}

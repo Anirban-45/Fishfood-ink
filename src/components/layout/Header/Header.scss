@@ -1,0 +1,57 @@
+@import "../../../styles/_variables.scss";
+@import "../../../styles/_mixins.scss";
+
+.header {
+    height: 90px;
+    padding-top: 32px;
+    background-color: $background-color;
+    
+    .inner {
+        height: 70px;
+        display: flex;
+        padding: 0px 20px 0px 20px;
+        padding-bottom: 20px !important;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid $accent-color;
+    
+        .logo {
+            height: 60px;
+        }
+    }
+    .links {
+        @include flex-container(row, center, center, 30px);
+
+        .link {
+            display: block;
+            line-height: 1;
+            font-family: $main-font-family;
+            padding: rem(8px, 8px) rem(12px, 12px);
+            border-radius: var(--mantine-radius-sm);
+            text-decoration: none;
+            color: $primary-text-color;
+            font-size: 18px;
+            font-weight: 500;
+    
+            &:hover {              
+                color: $primary-color;
+            }
+            
+            [data-mantine-color-scheme] &[data-active] {
+                color: $secondary-text-color;
+                font-weight: 600;
+            }
+        }
+    }
+    
+    
+}
+
+.custom-menu-item-label{
+    font-family: $main-font-family;
+
+    &:hover {
+        color: $secondary-text-color;
+    }
+}
+

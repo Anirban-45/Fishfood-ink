@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap");
+.footer {
+  background-color: rgb(27, 29, 34) !important;
+  color: #fafffe;
+  padding: 40px 60px !important;
+}
+.footer .footerdata {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footerdata pre {
+  background-color: rgb(27, 29, 34) !important;
+  color: #fafffe;
+  padding: 0px;
+}

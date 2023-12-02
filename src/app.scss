@@ -1,0 +1,25 @@
+@import "./styles/_variables.scss";
+
+.rootcontainer{
+    font-family: $main-font-family;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+body::-webkit-scrollbar{
+    width: .4em;
+    position: absolute;
+    z-index: 9999;
+  }
+  
+  body::-webkit-scrollbar-track{
+    background: $background-color;
+  }
+  
+  body::-webkit-scrollbar-thumb{
+    background: $primary-text-color;
+  }
+  
+  body::-webkit-scrollbar-thumb:hover{
+    background: $primary-color;
+  }

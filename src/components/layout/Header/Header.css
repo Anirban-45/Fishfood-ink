@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap");
+.header {
+  height: 90px;
+  padding-top: 32px;
+  background-color: #fafffe;
+}
+.header .inner {
+  height: 70px;
+  display: flex;
+  padding: 0px 20px 0px 20px;
+  padding-bottom: 20px !important;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #343942;
+}
+.header .inner .logo {
+  height: 60px;
+}
+.header .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.header .links .link {
+  display: block;
+  line-height: 1;
+  font-family: "Outfit", sans-serif;
+  padding: 0px 0px;
+  border-radius: var(--mantine-radius-sm);
+  text-decoration: none;
+  color: rgb(27, 29, 34);
+  font-size: 18px;
+  font-weight: 500;
+}
+.header .links .link:hover {
+  color: #006955;
+}
+[data-mantine-color-scheme] .header .links .link[data-active] {
+  color: #e43e21;
+  font-weight: 600;
+}
+
+.custom-menu-item-label {
+  font-family: "Outfit", sans-serif;
+}
+.custom-menu-item-label:hover {
+  color: #e43e21;
+}
