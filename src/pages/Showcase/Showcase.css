@@ -8,3 +8,10 @@
   justify-content: center;
   font-family: "Outfit", sans-serif;
 }
+.showcase .tile-image {
+  width: 300px;
+  height: 400px;
+}
+.showcase .length-caster {
+  width: 292px;
+}

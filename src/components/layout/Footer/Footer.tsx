@@ -8,15 +8,15 @@ const Footer: preact.FunctionComponent = () => {
         <footer className="footer">
             <div className="footerdata">
                 <pre>
-                  {`
-              .               "
-                        *
-        .        +                       .
-               m a d e   b y
-            A  N  I  R  B  A  N    .
-    *            .
-                                      *
-            .            '
+              {`
+          .               "
+                    *
+    .        +                       .
+           m a d e   b y
+        A  N  I  R  B  A  N    .
+*            .
+                                  *
+        .            '
                   `}
                 </pre>
                 <span className="footertext">

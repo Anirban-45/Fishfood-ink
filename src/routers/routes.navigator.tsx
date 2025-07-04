@@ -11,6 +11,11 @@ const Routes: preact.FunctionalComponent = () => {
             <Home path="/" />
             <Thoughts path="/thoughts" />
             <Showcase path="/showcase" />
+            {/* Showcase page routes */}
+            {/* <Muse path="/showcase/the-art-of-being-mused" />
+            <Conch path="/showcase/conch-head-manuscript" />
+            <Asunder path="/showcase/asunder" />
+            <Dots path="/showcase/if-putting-dots-were-a-crime" /> */}
             <Contact path="/contact" />
         </Router>
     ) 
